@@ -74,3 +74,20 @@ body {
 .img_github{
   background-image: url("icons/github-brands.svg");
 }
+.footer{
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.rsIcon{
+  height: 3rem;
+  margin: 1rem;
+}
+.year{
+  margin: 1rem;
+  font-size: 2rem;
+}
+.gh{
+  margin: 1rem;
+  font-size: 2rem;
+}
