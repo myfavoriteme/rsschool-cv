@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Lexend+Deca:wght@200;300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>CV</title>
 </head>
 <body>
     <div class="wrapper">
@@ -29,10 +28,12 @@
         <main class="_1">
 
             <div class="head1 add">
+                
+                <h2>Contact me</h2>
                 <nav class="contacts">
 
                     <!-- CONTACTS -->
-                    
+                    <!-- <h2>Contact</h2> -->
                     <ul class="ul">
                         <li>
                             <img src="icons/github-brands.svg" class="contact_img" alt="">
@@ -68,12 +69,59 @@
                     </ul>
                     
                 </nav>
+
+                <h2>Skils</h2>
+                <ul class="ul">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>GitHub</li>
+                    <li>VS Code</li>
+                </ul>
+
+                <h2>Projects</h2>
+                <ul class="ul">
+                    <li>
+                        <a class="links" href="https://myfavoriteme.github.io/cssMemSlider/cssMemSlider/" target="_blank" rel="noopener noreferrer">Css Mem Slider</a>
+                    </li>
+                    <li>
+                        <a class="links" href="https://rolling-scopes-school.github.io/myfavoriteme-JSFE2022Q1/Shelter/pages/main/" target="_blank" rel="noopener noreferrer">Shelter</a>
+                    </li>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+                </ul>
             </div>
 
             <div class="head2 main">
                 <h3>About me</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, nostrum ipsum. Aliquid, cupiditate maiores necessitatibus error, aut ullam autem ut magnam consequuntur suscipit neque reprehenderit laborum saepe voluptates omnis sit laboriosam, beatae aliquam amet assumenda.
-                </p>
+                <ul>
+                    <p>My name is Vlad, I’m 23 y/o and I’m going to become a junior front-end developer.
+                    </p>
+                    <p>Currently, I’m changing my carrier.</p>
+                </ul>
+                
+                
+                <h3>Code example:</h3>
+                <p>This code was written to change the theme in one of my projects.</p>
+                <pre>let switchMode = document.getElementById("switchMode");
+
+                    switchMode.onclick = function () {
+                        let theme = document.getElementById("theme");
+                    
+                        if (theme.getAttribute("href") == "style.css") {
+                           theme.href = "dark.css";
+                        } else {
+                            theme.href = "style.css";
+                        }
+                    }</pre>
+
+                    <h3>Languages</h3>
+                    <ul>
+                        <p><b>Russian</b> - native</p>
+                        <p><b>English</b> - B2 </p>
+                        <a class="links" href="https://www.efset.org/cert/PSmCmg" target="_blank" rel="noopener noreferrer">My results of EF SET test</a>
+                        <p> I had 4 month experience of working in mixed crew on board a ship.
+                            I was working with Filipino engineers in the engine room.</p>
+                    </ul>
             </div>
         </main>
 
@@ -82,7 +130,8 @@
                 <img class="rsIcon" src="icons/rsSchoolIcon.jpg" alt="">
             </a>
 
-            <div class="gh" class="contact_text">
+
+            <div class="gh contact_text">
                 <a href="https://github.com/myfavoriteme" target="_blank" class="links">github</a>
             </div>
 

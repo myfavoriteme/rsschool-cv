@@ -97,3 +97,15 @@ h2{
   margin: 1rem;
   font-size: 2rem;
 }
+.contacts{
+  margin-bottom: 3rem;
+}
+h2{
+  margin: 0 0 1rem 1.5rem;
+  font-weight: 400;
+}
+pre{
+  padding: 1rem;
+  border: solid 1px black;
+  font-size: 1rem;
+}
