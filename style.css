@@ -24,6 +24,7 @@ h1{
 }
 h2{
   font-size: 2rem;
+
 }
 .wrapper{
   max-width: 1200px;
@@ -76,6 +77,7 @@ h2{
 }
 .links{
   text-decoration: none;
+  color: rgb(43, 43, 43);
 }
 .img_github{
   background-image: url("icons/github-brands.svg");
@@ -102,11 +104,17 @@ h2{
 }
 .h2{
   font-size: 2rem;
-  margin: 0 0 1rem 1.5rem;
+  margin: 2rem 0 1rem 1.5rem;
   font-weight: 400;
 }
 pre{
   padding: 1rem;
   border: solid 1px black;
   font-size: 1rem;
+}
+.efset{
+  text-decoration: underline;
+}
+li{
+  margin-top: 0.4rem;
 }
